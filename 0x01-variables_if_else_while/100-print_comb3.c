@@ -20,9 +20,9 @@ putchar (number_right);
 
 if ((number_left == 56) && (number_right == 78))
 {
-break
+break;
 }
-utchar(',');
+putchar(',');
 putchar (' ');
 
 }
