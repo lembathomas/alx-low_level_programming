@@ -5,19 +5,20 @@
 * return (0)
 *
 */
-
 void print_alphabet_x10(void)
-int alphabet_count = 0;
 {
-while (alphabet_count < 10)
+int alphabet;
+int count;
+
+count = 0;
+while (count < 10)
 {
-char ch = 'a';
-while (ch <= 'z')
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-_putchar(ch);
-ch++;
+_putchar(alphabet);
 }
-alphabet_count++;
+count++;
 _putchar('\n');
 }
+
 }
