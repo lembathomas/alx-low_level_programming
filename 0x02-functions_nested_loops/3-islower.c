@@ -5,7 +5,7 @@
 * _islower - Short description, single line
 * Return: Always 0.
 */
-nt _islower(int c)
+int _islower(int c)
 {
 if (c > 'a' && c < 'z')
 {
